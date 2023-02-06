@@ -6,9 +6,16 @@
     box-sizing: border-box;
 }
 
-/* MAIN */
+/* utilities */
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-/* Header */
+/* HEADER */
+
+/* navigation bar */
 .nav-container{
     background-color: cadetblue;
     height: 50px;
@@ -16,14 +23,8 @@
 
 .yellow{
     background-color: goldenrod;
-    border: 1px dashed black;
     height: fit-content;
-}
-
-.flex{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    border: 1px dashed black;
 }
 
 .flex-gap{
@@ -34,11 +35,11 @@
     width: 200px;
 }
 
-ul{
+.nav-container ul{
     width: 400px;
 }
 
-li{
+.nav-container ul > li{
     list-style-type: none;
 }
 
@@ -49,4 +50,18 @@ a{
 .login{
     width: 200px;
     text-align: end;
+}
+
+/* main header */
+
+.header-container{
+    background-color: blue;
+    height: 400px;
+}
+
+.header-text{
+    width: 600px;
+    height: 300px;
+    background-color: pink;
+    border: 1px dashed black;
 }
