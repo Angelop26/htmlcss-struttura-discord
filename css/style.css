@@ -5,3 +5,48 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/* MAIN */
+
+/* Header */
+.nav-container{
+    background-color: cadetblue;
+    height: 50px;
+}
+
+.yellow{
+    background-color: goldenrod;
+    border: 1px dashed black;
+    height: fit-content;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-gap{
+    gap: 10px;
+}
+
+.logo{
+    width: 200px;
+}
+
+ul{
+    width: 400px;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.login{
+    width: 200px;
+    text-align: end;
+}
