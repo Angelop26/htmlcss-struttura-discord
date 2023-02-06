@@ -88,7 +88,8 @@ a{
 }
 
 .bg-gray{
-    background-color: grey;
+    background-color: lightgray;
+    flex-direction: row-reverse;
 }
 
 .end-main{
@@ -96,4 +97,52 @@ a{
     height: 500px;
     background-color: green;
     border: 1px dashed black;
+}
+
+/* FOOTER */
+.ft{
+    background-color: #23272a;
+}
+
+/* upper part */
+.up{
+    height: 600px;
+    border: 1px solid lightgray;
+}
+
+.credit{
+    width: 300px;
+    height: 500px;
+    background-color: pink;
+    border: 2px dashed black
+}
+
+.info{
+    width: 150px;
+    height: 500px;
+    border: 1px dashed white;
+    background-color: darkcyan;
+}
+
+/* down part */
+.down{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.end-page{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aquamarine;
+    height: 70px;
+    width: 900px;
+}
+
+.ft-login, .ft-button{
+    background-color: darkgoldenrod;
+    border: 1px dashed black;
+    padding: 5px;
 }
